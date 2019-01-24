@@ -1,6 +1,6 @@
 # Disclaimer
-I only copied this to github to keep a personal version and afapt the functionality to my needs. 
-No support will be provided so refer to the original repository [here](https://gitlab.com/Jrahme/tmux-float).
+I only copied this to github to keep a personal version and adapt the functionality to my needs. 
+No support will be provided here, so if you are interested in this plugin, please refer to the original repository [here](https://gitlab.com/Jrahme/tmux-float).
 
 # Float
 
