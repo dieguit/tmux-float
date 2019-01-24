@@ -1,3 +1,7 @@
+# Disclaimer
+I only copied this to github to keep a personal version and afapt the functionality to my needs. 
+No support will be provided so refer to the original repository [here](https://gitlab.com/Jrahme/tmux-float).
+
 # Float
 
 A plugin to quickly hide (float) and rejoin panes within a session.
@@ -44,7 +48,7 @@ To reattach a floater the following key bindings are used:
 Add this plugin to the list of TPM plugins in .tmux.conf
 
 ```
-set -g @plugin 'git@gitlab.com:Jrahme/tmux-hide-pane.git'
+set -g @plugin 'git@gitlab.com:Jrahme/tmux-float.git'
 ```
 
 ### Manual Installation
@@ -52,7 +56,7 @@ set -g @plugin 'git@gitlab.com:Jrahme/tmux-hide-pane.git'
 Clone the repo:
 
 ```
-$ git clone git@gitlab.com:Jrahme/tmux-hide-pane.git /path/to/your/tmux/plugin/directory
+$ git clone git@gitlab.com:Jrahme/tmux-float.git /path/to/your/tmux/plugin/directory
 ```
 
 Add this line to the bottom of your .tmux.conf 
