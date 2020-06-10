@@ -15,31 +15,16 @@ my status bar making it more difficult to switch between what ever other windows
 
 ## Usage
 
-A session called 'floating' is used to store all the windows used to cache the panes (referred to as floaters). Each session can have up to 3 floaters; repl, editor, and aux.
+A session called 'floating' is used to store all the windows used to cache the panes (referred to as floaters). Each session can have N floaters (I created only vertical and horizontal splits for my needs).
+
+* horiz: `prefix + C-h`
+* vert: `prefix + C-v`
 
 ### Requirements
 
 Tmux: version 2.5
 
   Earlier versions as far back as 2.2 may work, anything before didn't have hook support, but it has only been tested on 2.5
-
-### Keybindings
-
-To float a pane the following key bindings are used:
-
- * repl: `prefix + C-r`
-
- * aux: `prefix + C-h`
-
- * editor: `prefix + C-e`
-
-To reattach a floater the following key bindings are used:
-
- * repl: `prefix + M-r`
-
- * aux: `prefix + M-h`
-
- * editor: `prefix + M-e`
 
 ## Installation
 
